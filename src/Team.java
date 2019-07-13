@@ -1,8 +1,5 @@
 import java.util.ArrayList;
 
-/**
- * Created by dev on 17/10/2015.
- */
 public class Team<T extends Player> implements Comparable<Team<T>> {
     private String name;
     int played = 0;
